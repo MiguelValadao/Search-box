@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Google Search Redirect</title>
+</head>
+<body>
+    <div class="search-container">
+        <div class="logo">
+            <img src="images/Google_2015_logo.svg.png" alt="">
+        </div>
+        
+        <form class="search-box" action="https://www.google.com/search" method="GET" target="_blank">
+            <i class="fas fa-search"></i>
+            <input type="text" name="q" placeholder="Enter your search query..." required>
+            <button type="submit">Search Google</button>
+            <button type="submit" name="btnI" value="1" class="btn lucky-btn">I'm Feeling lucky</button>
+        </form>
+        
+        <div class="instructions">
+            <h3>How it works:</h3>
+            <ul>
+                <li>Type your search query in the input field above</li>
+                <li>Click the "Search Google" button</li>
+                <li>You'll be redirected to Google's search results page</li>
+                <li>The search will open in a new tab for your convenience</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
